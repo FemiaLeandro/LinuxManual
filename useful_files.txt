@@ -1,0 +1,9 @@
+/etc/hosts
+
+/etc/network/interfaces
+
+/etc/fstab
+
+/etc/proxychains.conf
+
+/etc/default/grub

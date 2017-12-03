@@ -1,0 +1,99 @@
+man <command> - manual page for specified command
+
+cd <path> - change directory to path provided
+
+cd .. - up one directory
+
+cd - home directory if logged as user, root directory if logged as root
+
+ls - list directory contents
+
+ls -a - ls all
+
+ls -lh - ls with details and filesizes
+
+pwd - print working directory
+
+cp -i <source> <destination> - copies files with confirmation
+
+mv -i <source> <destination> - moves files with confirmation (renaming)
+
+mkdir <name, path and name> - create directory
+
+rmdir <name, path and name> - deletes empty directory
+
+rm <name, path and name> - delete file
+
+rm -rf <path> - delete non empty directory
+
+su - log in a root user
+
+su -c <command> - execute command as root user
+
+su <username> - log in as specified user
+
+sudo <command> - execute command as root user
+
+sudo -i - enter root mode
+
+sudo sh - enter root mode
+
+sudo bash - enter root mode
+
+passwd <username> - change specified user password
+
+exit - exit session
+
+clear - clean screen
+
+nano <path to file> - cli text editor
+
+cat <path to file> - print contents of file
+
+watch -n <interval> <command> - execute a command periodically
+
+tail -n <number> <file> - print the last number of lines from a file
+
+tail -f <file> - print file in real time
+
+<command> | less <file> - load file in parts (ctrl+f/j forward, ctrl+b/k back)
+
+<command> | more <file> - like less (RETURN line, SPACE page)
+
+systemctl - show running services
+
+systemctl <action> <service> - service manager
+
+top - show top processes
+
+ps -efH - show running processes in tree hierarchy
+
+free -m - show memory stats in mb
+
+df -h - show human readable storage stats
+
+time <command> - measure time used to execute command
+
+date - show system date and time
+
+touch <file> - create empty file
+
+stat <file> - shows file stats
+
+stat -f <disk/filesystem> - shows filesystem stats
+
+<command> |grep --color -n -i "<text>" <file> - print lines that match text
+
+who - prints active users
+
+whoami - prints current user
+
+whereis <command> - shows where command is located
+
+uname -a - prints os information
+
+EDITOR=nano visudo - runs sudoers file in nano
+
+shutdown now - turn off machine
+
+shutdown -r now - reboot machine

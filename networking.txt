@@ -1,0 +1,37 @@
+ip a - show interfaces details
+
+ip a show <interface> - show specified interface details
+
+ip link set <interface> <state> - set specified interface state
+
+hostname -I - display all ip addresses
+
+ssh <username>@<address> - connect as a user to a machine with ssh enabled
+
+ping -c <iterations> <address> - ping address
+
+traceroute <address> - trace route to address
+
+tracepath <address> - similar to traceroute (no root)
+
+mtr <address> - traceroute and ping
+
+wget <file address> - downloads file from web
+
+curl <file address> - downloads file from web
+
+openvpn <certificate> - start openvpn session
+
+proxychains <command> - execute command through proxychains
+
+macchanger -s <interface> - show interface's mac address
+
+macchanger -a <interface> - apply same vendor random mac address
+
+macchanger -A <interface> - apply random vendor random mac address
+
+macchanger -r <interface> - apply completely random mac address
+
+macchanger -p <interface> - restore original mac address
+
+macchanger -m <mac> <interface> - apply manual mac address

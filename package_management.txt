@@ -1,0 +1,62 @@
+debian_based{
+	apt update - sync repositories
+
+	apt upgrade - updates packages (except packages with dependencies)
+
+	apt full-upgrade - updates all packages and fixes dependencies
+
+	apt install <package> - install a package
+
+	apt remove <package> - remove a package
+	
+	apt purge <package> - remove leftover data from removed package
+
+	apt search <package> - search repositories for package
+	
+	apt autoremove - remove unneeded dependencies
+	
+	dpkg -i <package.deb> - install .deb package file
+	
+	dpkg -r <package> - remove .deb package
+	
+	dpkg -P <package> - remove leftover data from removed .deb
+}
+
+tar{
+	c: create new archive
+	x: extract archive
+	z: gzip
+	j: bzip2
+	v: verbosely list files processed
+	f: specify filename
+
+	tar cvf example.tar <file/folder>
+	tar czvf example.tar.gz <file/folder>
+	tar cjvf example.tar.bz2. <file/folder>
+
+	tar xvf example.tar -C <path>
+	tar xzvf example.tar.gz -C <path>
+	tar xjvf example.tar.bz2 -C <path>
+}
+
+zip{
+	zip <file.zip> <file/path> - compress file/path
+
+	unzip <file> -t - test zip
+
+	unzip <file> -l - list files inside zip
+
+	unzip <file> - extract zip file
+
+	unzip <file> -d <path/> - extract file to path
+}
+
+rar{
+	unrar t <file> - test rar
+
+	unrar l <file> - list files inside rar
+
+	unrar x <file> - extract rar file
+
+	unrar x <file> <path/> - extract file to path
+}

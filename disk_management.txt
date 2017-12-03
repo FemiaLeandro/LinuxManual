@@ -1,0 +1,11 @@
+swapon <partition> - set partition as swap space
+
+swapoff <partition> - remove partition from swap
+
+parted <disk> - run parted on specified disk{
+	
+	
+	
+}
+
+partprobe - inform os of partition changes
