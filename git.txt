@@ -1,0 +1,7 @@
+git clone <url> - clones repository
+
+git add <file/s> - add files to repo
+
+git commit -m "<comment>" - commit changes to repo
+
+git push origin <branch> - push changes to branch
