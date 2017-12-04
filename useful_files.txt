@@ -6,4 +6,4 @@
 
 /etc/proxychains.conf
 
-/etc/default/grub
+/etc/default/grub (update-grub to save changes)
