@@ -2,7 +2,7 @@
 
 /etc/network/interfaces
 
-/etc/fstab
+/etc/fstab (/dev/partition /mount_point ext4 defaults 0 2)
 
 /etc/proxychains.conf
 

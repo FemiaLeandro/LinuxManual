@@ -1,11 +1,25 @@
+parted <disk> - run parted on specified disk{
+	select <disk> - select a different disk
+	
+	print - display partitions
+	
+	mklabel - create label (partition table, BYE DATA)
+	
+	mkpart - create partition
+	
+	set <partition> boot on - set bootable flag on partition
+}
+
+mkswap <partition> - set up a swap area on partition
+
 swapon <partition> - set partition as swap space
 
 swapoff <partition> - remove partition from swap
 
-parted <disk> - run parted on specified disk{
-	
-	
-	
-}
+mkfs.ext4 <partition> - create ext4 filesystem on partition
+
+mkfs.vfat -F 32 <partition> - create fat32 filesystem on partition
+
+mount <partition> <path> - mount the partition on specified path
 
 partprobe - inform os of partition changes

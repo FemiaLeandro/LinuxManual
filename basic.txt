@@ -8,7 +8,7 @@ cd - home directory if logged as user, root directory if logged as root
 
 ls - list directory contents
 
-ls -a - ls all
+ls -a - ls all files
 
 ls -lh - ls with details and filesizes
 
@@ -39,6 +39,8 @@ sudo -i - enter root mode
 sudo sh - enter root mode
 
 sudo bash - enter root mode
+
+passwd - change current user password
 
 passwd <username> - change specified user password
 
@@ -82,7 +84,7 @@ stat <file> - shows file stats
 
 stat -f <disk/filesystem> - shows filesystem stats
 
-<command> |grep --color -n -i "<text>" <file> - print lines that match text
+<command> | grep --color -n -i "<text>" <file> - print lines that match text
 
 who - prints active users
 
