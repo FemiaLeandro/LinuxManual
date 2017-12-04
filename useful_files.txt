@@ -7,3 +7,5 @@
 /etc/proxychains.conf
 
 /etc/default/grub (update-grub to save changes)
+
+/etc/apt/sources.list
