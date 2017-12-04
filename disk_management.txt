@@ -1,3 +1,5 @@
+fdisk -l - display partitions
+
 parted <disk> - run parted on specified disk{
 	select <disk> - select a different disk
 	
