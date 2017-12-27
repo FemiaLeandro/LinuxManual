@@ -1,16 +1,12 @@
+ufw
+
+mtr-tiny
+
 terminator
 
 openvpn
 
-mtr-tiny
-
 macchanger
-
-traceroute
-
-inetutils-traceroute
-
-iputils-tracepath
 
 curl
 
@@ -29,3 +25,7 @@ unzip
 unrar
 
 nmap
+
+aircrack-ng
+
+crunch
